@@ -1,0 +1,61 @@
+<!-- extension_info.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chrome Extension Info</title>
+    <link rel="stylesheet" href="landingstyles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="extension_icon.png" alt="SummarEase Logo" class="logo" />
+        <h1>SummarEase</h1>
+        <h4 id='error-element'></h4>
+      </div>
+      <div class="features">
+        <div class="feature" id='youtube-comment-button'>
+          <img src="assets/youtube_icon.png" alt="YouTube Icon" class="feature-icon" />
+          <div class="feature-info">
+            <h2>YouTube Comments Tone Analysis</h2>
+            <p>Get insights on the tone of YouTube comments.</p>
+          </div>
+        </div>
+        <div class="feature" id='youtube-subtitle-button'>
+          <img
+            src="assets/subtitles_icon.png"
+            alt="Subtitles Icon"
+            class="feature-icon"
+          />
+          <div class="feature-info">
+            <h2>YouTube Subtitles Analysis</h2>
+            <p>Analyze and jump to specific points in YouTube subtitles.</p>
+          </div>
+        </div>
+        <div class="feature" id='article-summary-button'>
+          <img src="assets/news_icon.png" alt="News Icon" class="feature-icon" />
+          <div class="feature-info">
+            <h2>Article Summarizer</h2>
+            <p>Generate concise summaries of news articles, blogs, or any long text!</p>
+          </div>
+        </div>
+        <div class="feature" id='ecommerce-summary-button'>
+          <img src="assets/amazon_icon.png" alt="Amazon Icon" class="feature-icon" />
+          <div class="feature-info">
+            <h2>Amazon Product Review Analysis</h2>
+            <p>Analyze and summarize product reviews on Amazon.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="landing.js"></script>
+  </body>
+</html>
